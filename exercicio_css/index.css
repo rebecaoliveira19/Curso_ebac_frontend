@@ -1,0 +1,132 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body > header{
+    background-color: rgb(33, 67, 158);
+    padding: 16px 0;
+    color: rgb(255, 255, 255);  
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header h1{
+    display: inline;
+
+}
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;  
+}
+
+header li a{
+    text-decoration: underline;
+    display: inline;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    font-size: 0px;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles article img{
+    width: 90%;
+}
+.articles article{
+    width: 30%;
+}
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px
+}
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+
+}
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p. 
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 32px;
+}
+
+section h2{
+    font-size: 32px;
+}
+#technology {
+    background-color: rgba(63, 123, 174, 0.689);
+}
+#technology .articles article a{
+    background-color: rgb(19, 82, 165);
+    
+}
+#technology .articles article p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#technology h2{
+    color: rgb(17, 16, 16);
+    font-size: 50px;
+}
+
+#Gamer {
+    background-color: rgb(60, 2, 114);
+}
+
+#Gamer h2{
+    color: white;
+    font-size: 50px;
+}
+#Gamer .articles article p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Gamer time{
+    color: white;
+}
+#Gamer h3{
+    color: white;
+}
+
+
+
